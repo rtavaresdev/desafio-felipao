@@ -1,8 +1,8 @@
-// Definir o nome e a quantidade de XP do heroí
+// Definir o nome e a quantidade de XP do herói
 let nomeDoHeroi = "Homem de Ferro"
 let xp = 10000
 
-// Estrutura de decisão para determinar o nível do heroí
+// Estrutura de decisão para determinar o nível do herói
 let nivel
 
 if (xp < 1000) {
@@ -23,6 +23,6 @@ if (xp < 1000) {
     nivel = "Radiante"
 }
 
-//Exibir a mensagem com o nível e nome do heroí
-console.log("O Heroí de nome " + nomeDoHeroi + " está no nível de " + nivel + "!")
+//Exibir a mensagem com o nível e nome do herói
+console.log("O Herói de nome " + nomeDoHeroi + " está no nível de " + nivel + "!")
 
